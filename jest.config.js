@@ -4,6 +4,6 @@ export default {
   transform: {
     "^.+.tsx?$": ["ts-jest",{}],
   },
-  preset: "ts-jest",
-  verbose: true,
+  //preset: "ts-jest",
+  //verbose: true,
 };
