@@ -11,5 +11,5 @@ export function getAPIKey(headers: IncomingHttpHeaders): string | null {
     return null;
   }
 
-  return "x";
+  return splitAuth[1];
 }
